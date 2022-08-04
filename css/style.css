@@ -1,1 +1,39 @@
 
+.font {
+text-align: center;
+font-size: 150%;
+color: ffffff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em
+  width: 100%;
+  width: 600px;
+  height: 300px;
+  padding: 0 auto;
+  margin: 0 auto;
+  background-image: url(https://sun9-west.userapi.com/sun9-13/s/v1/ig2/TPQkS-u9v1qhj_YjTCi1t2RKklWQm_PrQ1z8z91fdyPxnfABst9_SCP96aabG7hbUSXF0-X1e9xDvNwx4qcQGWxv.jpg?size=900x900&quality=95&type=album);
+border-radius: 15px;
+}
+
+.click {
+display: inline-block;
+cursor: pointer; 
+font-size: 14px;
+text-decoration:none;padding: 10px 20px; 
+color: #ffff0;
+background: #ffff0;
+border-radius: 15px;
+border: 3px solid #354251;
+position: absolute;
+top: auto;
+}
+
+.click:hover {
+background: #354251;
+color: #ffffff;
+border: 3px solid #354251;
+transition: all 0.2s ease;
+}
